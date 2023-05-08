@@ -5,30 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/assets/style.css" />
     <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/mirotone@^5/dist/styles.css">
+    <script src='src/config.js'></script>
     <title>Ford Coowner Check App</title>
   </head>
   <body>
     
     <div class="grid wrapper">
       <div class="cs1 ce12">
-        <img src="/src/assets/congratulations.png" alt="" />
-      </div>
-      <div class="cs1 ce12">
-        <h1>Congratulations!</h1>
-        <p>You've just created your first Miro app!</p>
+        <h1>Ford Board Co-Owner Requirement</h1>
         <p>
-          To explore more and build your own app, see the Miro Developer
-          Platform documentation.
+          This board does not yet have a Co-Owner assigned. 
+          All boards created in Miro must have at least one board Co-Owner. 
+          For instructions see <a target="_blank" href="https://help.miro.com/hc/en-us/articles/360021580759-Board-co-owner#h_01F5FRSGGJJDTNTPTTY0NETWMQ">here</a>
+
         </p>
       </div>
       <div class="cs1 ce12">
-        <a
-          class="button button-primary"
-          target="_blank"
-          href="https://developers.miro.com"
-        >
-          Read the documentation
-        </a>
+        <button id="acknowledge-button" class="button button-primary">Acknowledge</button>
       </div>
     </div>
     

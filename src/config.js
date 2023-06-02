@@ -1,1 +1,1 @@
-window.LAMBDA_ENDPOINT='http://localhost:3001';
+window.LAMBDA_ENDPOINT='https://prod-166.westeurope.logic.azure.com/workflows/ee56152766874cd08da5f4b603ba9fda/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=gumKbfrQ4kbhPfp6C450dbjulFRff8CQZD5ULitcmT0';
